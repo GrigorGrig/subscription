@@ -4,4 +4,6 @@ composer install
 
 php artisan migrate --seed
 
-php artisan s
+php artisan schedule:work
+
+php artisan queue:work
